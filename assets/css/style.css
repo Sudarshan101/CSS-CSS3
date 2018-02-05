@@ -1,0 +1,239 @@
+body, .wrapper{
+	margin:0;
+	padding:0;
+}
+/* Page Container  */
+.page-content{
+	max-width:1170px;
+	margin:0 auto;
+}
+
+/* CSS For design Listing */
+.cs-list{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.cs-item{
+	padding:14px;
+	box-shadow:0px 0px 1px #ccc;
+	margin:0px;
+	position:relative;
+	font-size:16px;
+	color:#000;
+}
+.cs-divider{
+	color:#000;
+	background:#dcdcdc;
+	font-weight:900;
+}
+.cs-title{
+	margin:0;
+	font-size:24px;
+	padding-bottom:8px;
+	color:#000;
+}
+.cs-sub-title{
+	margin:0;
+	padding-bottom:8px;
+	font-size:16px;
+	color:#666;
+}
+.cs-description{
+	margin:0;
+	padding-bottom:8px;
+	font-size:12px;
+	color:#999;
+}
+
+
+
+.cs-item.cs-thumbnail-left{
+	padding-left:100px;
+}
+
+.cs-item.cs-thumbnail-left .thumbnail-img:first-child{
+	position:absolute;
+	top:14px;
+	left:10px;
+	right:auto;
+	width: 80px;
+    height: 80px;
+}
+.cs-item.cs-thumbnail-left .rounded-img:first-child{
+	position:absolute;
+	top:14px;
+	left:10px;
+	right:auto;
+	width: 80px;
+	border-radius:5px;
+    height: 80px;
+}
+.cs-item.cs-thumbnail-left .avatar-img:first-child{
+	position:absolute;
+	top:14px;
+	left:10px;
+	right:auto;
+	width: 80px;
+	border-radius:100%;
+    height: 80px;
+}
+
+.cs-item.cs-thumbnail-right{
+	padding-right:100px;
+}
+
+.cs-item.cs-thumbnail-right .thumbnail-img:last-child{
+	position:absolute;
+	top:14px;
+	right:10px;
+	left:auto;
+	width: 80px;
+    height: 80px;
+}
+.cs-item.cs-thumbnail-right .rounded-img:last-child{
+	position:absolute;
+	top:14px;
+	right:10px;
+	left:auto;
+	width: 80px;
+	border-radius:5px;
+    height: 80px;
+}
+.cs-item.cs-thumbnail-right .avatar-img:last-child {
+	position:absolute;
+	top:14px;
+	right:10px;
+	left:auto;
+	width: 80px;
+	border-radius:100%;
+    height: 80px;
+}
+
+.cs-item.small-thumbnail{
+	padding: 20px;
+}
+.cs-item.cs-thumbnail-left.small-thumbnail{
+	padding-left: 60px;
+}
+
+.cs-item.cs-thumbnail-left.small-thumbnail .thumbnail-img:first-child{
+	position:absolute;
+	top:10px;
+	left:10px;
+	right:auto;
+	width: 40px;
+    height: 40px;
+}
+.cs-item.cs-thumbnail-left.small-thumbnail .rounded-img:first-child{
+	position:absolute;
+	top:10px;
+	left:10px;
+	right:auto;
+	width: 40px;
+	height: 40px;
+	border-radius:5px;
+}
+.cs-item.cs-thumbnail-left.small-thumbnail .avatar-img:first-child{
+	position:absolute;
+	top:10px;
+	left:10px;
+	right:auto;
+	width: 40px;
+	height: 40px;
+	border-radius:100%;
+   
+}
+.cs-item.cs-thumbnail-right.small-thumbnail{
+	padding-right: 60px;
+}
+
+.cs-item.cs-thumbnail-right.small-thumbnail .thumbnail-img:last-child{
+	position:absolute;
+	top:10px;
+	right:10px;
+	left:auto;
+	width: 40px;
+    height: 40px;
+}
+.cs-item.cs-thumbnail-right.small-thumbnail .rounded-img:last-child{
+	position:absolute;
+	top:10px;
+	right:10px;
+	left:auto;
+	width: 40px;
+	height: 40px;
+	border-radius:5px;
+}
+.cs-item.cs-thumbnail-right.small-thumbnail .avatar-img:last-child{
+	position:absolute;
+	top:10px;
+	right:10px;
+	left:auto;
+	width: 40px;
+	height: 40px;
+	border-radius:100%;
+   
+}
+.cs-item.cs-icon-left{
+	padding-left: 46px;
+}
+.cs-item.cs-icon-left i:first-child, .cs-item.cs-icon-left span:first-child{
+	position:absolute;
+	top:14px;
+	left:10px;
+	right:auto;
+	font-size:24px;
+}
+.cs-item.cs-icon-right{
+	padding-right: 46px;
+    position: relative;
+}
+.cs-item.cs-icon-right i:last-child, .cs-item.cs-icon-right span:last-child{
+	position:absolute;
+	top:10px;
+	right:10px;
+	left:auto;
+	font-size:24px;
+}
+.cs-item.cs-button-right{
+	padding-right: 60px;
+}
+.cs-item.cs-button-right .cs-button{
+	background: #999;
+    color: #000;
+    border: 0px;
+    position: absolute;
+    box-shadow: none;
+    border-radius: 4px;
+    right: 15px;
+    padding: 8px 8px;
+    top: 8px;
+}
+.cs-item.cs-badge-right{
+	padding-right: 60px;
+}
+.cs-item.cs-badge-right .cs-badge{
+	background: #999;
+    color: #000;
+    border: 0px;
+    position: absolute;
+    display: inline-block;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
+    right: 15px;
+    left: auto;
+    padding: 5px 5px;
+    top: 8px;
+    font-weight: 900;
+}
+
+
+/* CSS For responsive for any device */
+
+@media (max-width: 767px){
+	.page-content{
+		padding:15px;
+	}
+}
